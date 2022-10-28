@@ -14,6 +14,7 @@ public class PatternMake {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int ran = 2*n - 1;
+		
 		for(int i = 0; i < n; i++) {
 			for(int j = 1; j <= ran; j++) {
 				if(i==n-1) {

@@ -14,6 +14,7 @@ public class LogFind {
 		int i = 0;
 		long totalTraffic = 0L;
 		try {
+			
 			BufferedReader br = new BufferedReader(new FileReader("log.txt"));
 			Map<String, Object> map = new TreeMap<>();
 			Map<String, Object> map1 = new TreeMap<>();
